@@ -8,7 +8,17 @@ module.exports = {
     // Do the same with `components`, `hooks`, `styles`, or any other top-level directories
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        background: "#fff",
+        foreground: "#111",
+        muted: "rgba(0,0,0,0.06)",
+        "muted-foreground": "#666",
+        accent: "#0066cc",
+        border: "rgba(0,0,0,0.1)",
+        overlay: "rgba(0,0,0,0.4)",
+      },
+    },
   },
   plugins: [],
 };
