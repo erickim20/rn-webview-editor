@@ -7,7 +7,7 @@ import "../global.css";
 import { CommandPalette } from "./components/CommandPalette";
 import { EditorToolbar } from "./components/EditorToolbar";
 import { FontSettingsSheet } from "./components/FontSettingsSheet";
-import { editorHtml } from "./editorHtml";
+import { editorHtml } from "pensiv-rn-editor";
 import type { SelectionContext } from "./types";
 
 type ToWeb =
